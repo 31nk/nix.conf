@@ -102,7 +102,6 @@
   steam
   chromium
   spotify
-  discord
   vscode
   kitty
   #hyprland
