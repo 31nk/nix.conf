@@ -133,6 +133,7 @@ discord-screenaudio
 git
 
 
+
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
   ];
@@ -160,6 +161,12 @@ programs.steam = {
   enable = true;
   dedicatedServer.openFirewall = true;
 };
+
+#automatic update
+system.autoUpgrade.enable  = true;
+system.autoUpgrade.allowReboot  = true;
+
+boot.kernelPackages = pkgs.linuxPackages_latest;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
