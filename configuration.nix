@@ -100,7 +100,7 @@
   environment.systemPackages = with pkgs; [
   #base apps
   steam
-  chromium
+  firefox
   spotify
   vscode
   kitty
