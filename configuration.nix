@@ -166,8 +166,8 @@ programs.steam = {
 system.autoUpgrade.enable  = true;
 system.autoUpgrade.allowReboot  = true;
 
-boot.kernelPackages = pkgs.linuxPackages_latest;
-
+#boot.kernelPackages = pkgs.linuxPackages_latest;
+#uncomment to use latest kernel
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
